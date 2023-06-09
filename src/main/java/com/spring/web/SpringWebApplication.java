@@ -27,9 +27,9 @@ public class SpringWebApplication extends SpringBootServletInitializer {
 	@Bean
 	public CommandLineRunner initDB() {
 		return (args) -> {
-			repo.save(new Employee("John", 20010L));
-			repo.save(new Employee("Peter", 20010L));
-			repo.save(new Employee("Sam", 20010L));
+			repo.save(new Employee("Shailesh", 20010L));
+			repo.save(new Employee("Fluffy", 20010L));
+			repo.save(new Employee("peter", 20010L));
 		};
 	}
 
